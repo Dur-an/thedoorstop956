@@ -1,0 +1,23 @@
+{
+  "name": "door_stop_node",
+  "version": "1.0.0",
+  "description": "Door Stop Website built w/ Node.js based on https://github.com/LARRYKlNG/money repo",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=production node server",
+    "dev": "nodemon server.js"
+  },
+  "author": "Jamey Bryce",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.7",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
